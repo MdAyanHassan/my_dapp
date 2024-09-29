@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ethers, BrowserProvider } from 'ethers';
+import { BrowserProvider } from 'ethers';
 
 const App = () => {
     const [userAddress, setUserAddress] = useState('');
